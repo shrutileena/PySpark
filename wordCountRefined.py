@@ -2,7 +2,7 @@ from pyspark import SparkContext
 # from sys import stdin
 
 if __name__ == "__main__":
-    sc = SparkContext("local[*]", "wordcount")
+    sc = SparkContext("local[*]", "wordcountrefined")
     sc.setLogLevel("ERROR")
     inputData = sc.textFile("E:/Big Data By Sumit Mittal/Week 9/Datasets/search_data-201008-180523.txt")
 
